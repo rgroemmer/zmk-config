@@ -36,9 +36,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp RALT &kp KP_MINUS>,
+                <&kp RALT &kp MINUS>,
                 <&macro_release>,
-                <&kp KP_MINUS &kp RALT>;
+                <&kp MINUS &kp RALT>;
         };
         drei: drei {
             compatible = "zmk,behavior-macro";
@@ -81,7 +81,7 @@
    &kp TAB         &none         &none         &none         &none         &none    &kp HOME     &none     &none    &kp END   &none   &none
 &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT  &trans  &trans
  &kp LSHFT        &trans        &trans        &trans        &trans        &trans      &trans    &trans    &trans     &trans  &trans  &trans
-                                            &kp LGUI         &mo 0     &kp SPACE     &kp RET    &trans  &kp RALT
+                                            &kp LGUI         &mo 3     &kp SPACE     &kp RET     &none  &kp RALT
             >;
         };
 
@@ -96,7 +96,7 @@
   &kp TAB      &kp MINUS   &kp QUESTION     &none   &none        &kp GRAVE             &kp EXCL        &none                 &none   &kp RPAR         &kp CARET  &kp BSPC
 &kp LCTRL          &zwei  &kp AMPERSAND     &drei  &trans  &kp RIGHT_BRACE         &kp KP_MINUS    &kp ASTRK  &kp LEFT_PARENTHESIS  &kp SLASH  &kp GREATER_THAN     &none
 &kp LSHFT  &kp BACKSLASH     &kp DOLLAR     &pipe  &tilde         &kp PLUS    &kp RIGHT_BRACKET  &kp PERCENT                &kp AT   &kp PIPE     &kp LESS_THAN     &none
-                                         &kp LGUI  &trans        &kp SPACE              &kp RET        &mo 0              &kp RALT
+                                         &kp LGUI  &trans        &kp SPACE              &kp RET        &mo 3              &kp RALT
             >;
         };
 
