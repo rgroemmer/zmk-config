@@ -82,10 +82,10 @@
 
         Layer__3 {
             bindings = <
-&kp 0         &kp 0           &kp           &kp           &kp           &kp             &kp         &none         &none         &none           &kp    &kp
-&kp 0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
-&kp 0           &kp           &kp           &kp           &kp           &kp             &kp         &none         &none         &none           &kp    &kp
-                                            &kp           &kp           &kp             &kp           &kp           &kp
+&kp 0   &kp 0           &kp           &kp           &kp           &kp             &kp         &none         &none         &none           &kp    &kp
+&kp 0  &kp N1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
+&kp 0     &kp           &kp           &kp           &kp           &kp             &kp         &none         &none         &none           &kp    &kp
+                                      &kp           &kp           &kp             &kp           &kp           &kp
             >;
         };
     };
