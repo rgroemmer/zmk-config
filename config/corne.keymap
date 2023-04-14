@@ -9,6 +9,19 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
+    macros {
+        dollar: dollar {
+            compatible = "zmk,behavior-macro";
+            label = "DOLLAR";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RALT &kp NUBS>,
+                <&macro_release>,
+                <&kp RALT &kp NUBS>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -52,17 +65,17 @@
             bindings = <
   &kp TAB      &kp MINUS   &kp QUESTION     &none   &none        &kp GRAVE             &kp EXCL        &none                 &none   &kp RPAR         &kp CARET  &kp BSPC
 &kp LCTRL         &trans  &kp AMPERSAND    &trans  &trans  &kp RIGHT_BRACE         &kp KP_MINUS    &kp ASTRK  &kp LEFT_PARENTHESIS  &kp SLASH  &kp GREATER_THAN     &none
-&kp LSHFT  &kp BACKSLASH     &kp DOLLAR    &trans  &trans         &kp PLUS    &kp RIGHT_BRACKET  &kp PERCENT                &kp AT   &kp PIPE     &kp LESS_THAN     &none
+&kp LSHFT  &kp BACKSLASH     &kp DOLLAR   &dollar  &trans         &kp PLUS    &kp RIGHT_BRACKET  &kp PERCENT                &kp AT   &kp PIPE     &kp LESS_THAN     &none
                                          &kp LGUI  &trans        &kp SPACE              &kp RET        &mo 3              &kp RALT
             >;
         };
 
         Layer__3 {
             bindings = <
-&kp 0   &kp 0  &kp  &kp  &kp  &kp          &kp  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp  &kp
-&kp 0   &kp NUMBER_1  &kp NUMBER_2 &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9 &kp NUMBER_0
-&kp 0  &kp  &kp  &kp  &kp  &kp          &kp  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp  &kp
-                       &kp  &kp  &kp          &kp        &kp        &kp
+&kp 0         &kp 0           &kp           &kp           &kp           &kp             &kp  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9           &kp            &kp
+&kp 0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &kp undefined
+&kp 0           &kp           &kp           &kp           &kp           &kp             &kp  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3           &kp            &kp
+                                            &kp           &kp           &kp             &kp           &kp           &kp
             >;
         };
     };
