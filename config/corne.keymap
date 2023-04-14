@@ -30,6 +30,26 @@
                 <&macro_release>,
                 <&kp RIGHT_BRACKET &kp RALT>;
         };
+        zwei: zwei {
+            compatible = "zmk,behavior-macro";
+            label = "ZWEI";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RALT &kp KP_MINUS>,
+                <&macro_release>,
+                <&kp KP_MINUS &kp RALT>;
+        };
+        drei: drei {
+            compatible = "zmk,behavior-macro";
+            label = "DREI";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp RALT &kp NUMBER_7>,
+                <&macro_release>,
+                <&kp NUMBER_7 &kp RALT>;
+        };
     };
 
     keymap {
