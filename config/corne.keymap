@@ -50,10 +50,10 @@
 
         move_and_bt {
             bindings = <
-     &none     &none   &none     &none         &none         &none    &kp HOME     &none     &none    &kp END   &none   &none
-&bt BT_CLR  &linux_0  &win_1    &mac_2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT  &trans  &trans
-     &none    &trans  &trans    &trans        &trans        &trans      &trans    &trans    &trans     &trans  &trans  &trans
-                              &kp LGUI         &none     &kp SPACE     &kp RET     &none  &kp RALT
+     &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp HOME     &none     &none    &kp END   &none   &none
+&bt BT_CLR      &linux_0        &win_1        &mac_2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT  &trans  &trans
+     &none        &trans        &trans        &trans        &trans        &trans      &trans    &trans    &trans     &trans  &trans  &trans
+                                            &kp LGUI         &none     &kp SPACE     &kp RET     &none  &kp RALT
             >;
         };
 
