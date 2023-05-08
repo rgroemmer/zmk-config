@@ -9,7 +9,39 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-  macros {
+    macros {
+
+        linux: linux {
+            label = "M_linux";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                , <&to 0>
+                , <&bt BT_SEL 0>
+                ;
+        };
+
+        win: win {
+            label = "M_win";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                , <&to 0>
+                , <&bt BT_SEL 1>
+                ;
+        };
+
+        mac: zed_em_kay {
+            label = "M_mac";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                , <&to 1>
+                , <&bt BT_SEL 3>
+                ;
+        };
+
+    };
   };
 
   keymap {
