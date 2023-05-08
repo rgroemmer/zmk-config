@@ -9,38 +9,35 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-    macros {
+  macros {
+    linux_0: linux_0 {
+        label = "M_linux";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&to 0>
+            , <&bt BT_SEL 0>
+            ;
+    };
 
-        linux_0: linux_0 {
-            label = "M_linux";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&to 0>
-                , <&bt BT_SEL 0>
-                ;
-        };
+    win_1: win_1 {
+        label = "M_win";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&to 0>
+            , <&bt BT_SEL 1>
+            ;
+    };
 
-        win_1: win_1 {
-            label = "M_win";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&to 0>
-                , <&bt BT_SEL 1>
-                ;
-        };
-
-        mac_2: mac_2 {
-            label = "M_mac";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&to 1>
-                , <&bt BT_SEL 2>
-                ;
-        };
-
+    mac_2: mac_2 {
+        label = "M_mac";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings
+            = <&to 1>
+            , <&bt BT_SEL 2>
+            ;
     };
   };
 
@@ -87,7 +84,7 @@
       bindings = <
         &trans      &kp MINUS          &kp QUESTION        &kp RA(NUMBER_8)        &kp RA(NUMBER_9)      &kp GRAVE            &kp EXCL              &kp NUBS        &kp LS(NUBS)            &kp RPAR       &kp CARET           &kp BSPC
         &trans      &kp RA(MINUS)      &kp AMPERSAND       &kp RA(NUMBER_7)        &kp RA(NUMBER_0)      &kp RIGHT_BRACE      &kp KP_MINUS          &kp ASTRK       &kp LEFT_PARENTHESIS    &kp SLASH      &kp GREATER_THAN    &kp RA(Q)
-        &trans      &kp BACKSLASH      &kp DOLLAR          &kp RA(         &kp RA(RBRC)          &kp PLUS             &kp RIGHT_BRACKET     &kp PERCENT     &kp AT                  &kp PIPE       &kp LESS_THAN       &trans
+        &trans      &kp BACKSLASH      &kp DOLLAR          &kp RA(NUBS)         &kp RA(RBRC)          &kp PLUS             &kp RIGHT_BRACKET     &kp PERCENT     &kp AT                  &kp PIPE       &kp LESS_THAN       &trans
         &kp LGUI    &trans             &kp SPACE           &kp RET                 &trans                &kp RALT
         >;
     };
@@ -100,6 +97,5 @@
         &kp LGUI    &trans             &kp SPACE           &kp RET                 &trans                &kp RALT
         >;
     };
-
   };
 };
