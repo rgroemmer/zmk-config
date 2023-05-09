@@ -14,25 +14,25 @@
             label = "M_linux";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&to 2 &bt BT_SEL 0>;
+            bindings
+                = <&to 2>
+                ;
         };
         win_1: win_1 {
             label = "M_win";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&to 2 &bt BT_SEL 1>;
+            bindings
+                = <&to 2>
+                ;
         };
         mac_2: mac_2 {
             label = "M_mac";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&to 3 &bt BT_SEL 2>;
+            bindings
+                = <&to 3>
+                ;
         };
     };
 
