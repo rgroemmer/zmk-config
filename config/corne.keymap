@@ -35,7 +35,7 @@
 
         numbers {
             bindings = <
-&trans  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)    &kp LA(NUMBER_6)  &kp LA(NUMBER_7)  &kp LA(NUMBER_8)  &kp LA(NUMBER_9)  &kp LA(NUMBER_0)  &trans
+&trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &kp LC(NUMBER_5)    &kp LC(NUMBER_6)  &kp LC(NUMBER_7)  &kp LC(NUMBER_8)  &kp LC(NUMBER_9)  &kp LC(NUMBER_0)  &trans
 &trans            &kp N1      &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5        &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &kp NUMBER_0  &trans
 &trans            &trans            &trans            &trans            &trans            &trans              &trans            &trans            &trans            &trans            &trans  &trans
                                                       &trans            &trans            &trans              &trans            &trans            &trans
@@ -62,10 +62,10 @@
 
         symbols_mac {
             bindings = <
-&trans      &kp MINUS   &kp QUESTION  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)        &kp GRAVE             &kp EXCL     &kp NUBS          &kp LS(NUBS)   &kp RPAR         &kp CARET   &kp BSPC
-&trans  &kp RA(MINUS)  &kp AMPERSAND  &kp RA(NUMBER_7)  &kp RA(NUMBER_0)  &kp RIGHT_BRACE         &kp KP_MINUS    &kp ASTRK  &kp LEFT_PARENTHESIS  &kp SLASH  &kp GREATER_THAN  &kp RA(Q)
-&trans  &kp BACKSLASH     &kp DOLLAR  &kp LA(NUMBER_7)         &kp RA(N)         &kp PLUS    &kp RIGHT_BRACKET  &kp PERCENT                &kp AT   &kp PIPE     &kp LESS_THAN     &trans
-                                              &kp LGUI            &trans        &kp SPACE              &kp RET       &trans              &kp RALT
+&trans             &kp MINUS   &kp QUESTION  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)        &kp GRAVE             &kp EXCL     &kp NUBS          &kp LS(NUBS)   &kp RPAR         &kp CARET   &kp BSPC
+&trans  &kp LS(LA(NUMBER_7))  &kp AMPERSAND  &kp RA(NUMBER_7)  &kp RA(NUMBER_0)  &kp RIGHT_BRACE         &kp KP_MINUS    &kp ASTRK  &kp LEFT_PARENTHESIS  &kp SLASH  &kp GREATER_THAN  &kp RA(Q)
+&trans         &kp BACKSLASH     &kp DOLLAR  &kp LA(NUMBER_7)         &kp RA(N)         &kp PLUS    &kp RIGHT_BRACKET  &kp PERCENT                &kp AT   &kp PIPE     &kp LESS_THAN     &trans
+                                                     &kp LGUI            &trans        &kp SPACE              &kp RET       &trans              &kp RALT
             >;
         };
     };
