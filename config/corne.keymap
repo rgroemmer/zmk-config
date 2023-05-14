@@ -38,7 +38,7 @@
 &trans      &kp MINUS   &kp QUESTION  &kp RA(NUMBER_8)  &kp RA(NUMBER_9)        &kp GRAVE             &kp EXCL     &kp NUBS          &kp LS(NUBS)   &kp RPAR         &kp CARET   &kp BSPC
 &trans  &kp RA(MINUS)  &kp AMPERSAND  &kp RA(NUMBER_7)  &kp RA(NUMBER_0)  &kp RIGHT_BRACE         &kp KP_MINUS    &kp ASTRK  &kp LEFT_PARENTHESIS  &kp SLASH  &kp GREATER_THAN  &kp RA(Q)
 &trans  &kp BACKSLASH     &kp DOLLAR      &kp RA(NUBS)      &kp RA(RBRC)         &kp PLUS    &kp RIGHT_BRACKET  &kp PERCENT                &kp AT   &kp PIPE     &kp LESS_THAN     &trans
-                                              &kp LGUI            &trans        &kp SPACE              &kp RET       &trans              &kp RALT
+                                              &kp LGUI            &trans        &kp SPACE              &kp RET       &trans          &kp LEFT_WIN
             >;
         };
 
@@ -47,7 +47,7 @@
 &trans             &kp MINUS      &kp QUESTION  &kp RA(NUMBER_5)     &kp RA(NUMBER_6)      &kp NUBS             &kp EXCL  &kp LS(LA(B))         &kp LS(LA(N))   &kp RPAR         &kp CARET   &kp BSPC
 &trans  &kp LS(LA(NUMBER_7))  &kp RS(NUMBER_7)  &kp RA(NUMBER_8)  &kp RA(KP_NUMBER_9)  &kp LS(RBRC)         &kp KP_MINUS      &kp ASTRK  &kp LEFT_PARENTHESIS  &kp SLASH  &kp GREATER_THAN  &kp RA(L)
 &trans         &kp BACKSLASH        &kp DOLLAR  &kp LA(NUMBER_7)            &kp RA(N)      &kp PLUS    &kp RIGHT_BRACKET    &kp PERCENT                &kp AT   &kp PIPE     &kp LESS_THAN     &trans
-                                                        &kp LGUI               &trans     &kp SPACE              &kp RET         &trans              &kp RALT
+                                                           &none               &trans     &kp SPACE              &kp RET         &trans          &kp LEFT_GUI
             >;
         };
 
@@ -62,10 +62,10 @@
 
         move_and_bt {
             bindings = <
-     &none         &none         &none         &none         &none        &trans    &kp HOME     &none     &none    &kp END   &none   &none
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN    &kp UP  &kp RIGHT  &trans  &trans
-     &none        &tog 0         &to 0        &tog 1         &to 1        &trans      &trans    &trans    &trans     &trans  &trans  &trans
-                                            &kp LGUI         &none     &kp SPACE     &kp RET     &none  &kp RALT
+     &none         &none         &none         &none         &none        &trans    &kp HOME     &none   &none    &kp END   &none   &none
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+     &none        &tog 0         &to 0        &tog 1         &to 1        &trans      &trans    &trans  &trans     &trans  &trans  &trans
+                                            &kp LGUI         &none     &kp SPACE     &kp RET     &none   &none
             >;
         };
     };
