@@ -44,7 +44,7 @@
 
         symbols_mac {
             bindings = <
-&trans             &kp MINUS      &kp QUESTION  &kp RA(NUMBER_5)     &kp RA(NUMBER_6)      &kp NUBS             &kp EXCL  &kp LS(LA(B))         &kp LS(LA(N))   &kp RPAR         &kp CARET   &kp BSPC
+&trans             &kp MINUS      &kp QUESTION  &kp RA(NUMBER_5)     &kp RA(NUMBER_6)      &kp NUBS             &kp EXCL  &kp LESS_THAN      &kp GREATER_THAN   &kp RPAR         &kp CARET   &kp BSPC
 &trans  &kp LS(LA(NUMBER_7))  &kp RS(NUMBER_7)  &kp RA(NUMBER_8)  &kp RA(KP_NUMBER_9)  &kp LS(RBRC)         &kp KP_MINUS      &kp ASTRK  &kp LEFT_PARENTHESIS  &kp SLASH  &kp GREATER_THAN  &kp RA(L)
 &trans         &kp BACKSLASH        &kp DOLLAR  &kp LA(NUMBER_7)            &kp RA(N)      &kp PLUS    &kp RIGHT_BRACKET    &kp PERCENT                &kp AT   &kp PIPE     &kp LESS_THAN     &trans
                                                            &none               &trans     &kp SPACE              &kp RET         &trans          &kp LEFT_GUI
