@@ -15,16 +15,20 @@
             label = "MAC";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&to 1 &bt BT_SEL 2>;
+                <&macro_tap>,
+                <&to 1>,
+                <&macro_tap>,
+                <&bt BT_SEL 2>;
         };
         LINUX: LINUX {
             compatible = "zmk,behavior-macro";
             label = "LINUX";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&bt BT_SEL 0 &to 0>;
+                <&macro_tap>,
+                <&to 0>,
+                <&macro_tap>,
+                <&bt BT_SEL 0>;
         };
     };
 
