@@ -55,19 +55,19 @@
 
         symbols_linux {
             bindings = <
-&trans      &kp MINUS   &kp QUESTION  &kp RA(NUMBER_8)       &kp RA(NUMBER_9)        &kp GRAVE             &kp EXCL     &kp NUBS          &kp LS(NUBS)   &kp RPAR         &kp CARET   &kp BSPC
-&trans  &kp RA(MINUS)  &kp AMPERSAND  &kp RA(NUMBER_7)       &kp RA(NUMBER_0)  &kp RIGHT_BRACE        &kp LS(MINUS)    &kp ASTRK  &kp LEFT_PARENTHESIS  &kp SLASH  &kp GREATER_THAN  &kp RA(Q)
-&trans  &kp BACKSLASH     &kp DOLLAR      &kp RA(NUBS)  &kp RA(RIGHT_BRACKET)         &kp PLUS    &kp RIGHT_BRACKET  &kp PERCENT                &kp AT   &kp PIPE     &kp LESS_THAN     &trans
-                                              &kp LGUI                 &trans        &kp SPACE              &kp RET        &mo 6          &kp LEFT_WIN
+&kp LEFT_BRACKET      &kp MINUS   &kp QUESTION  &kp RA(NUMBER_8)       &kp RA(NUMBER_9)        &kp GRAVE             &kp EXCL     &kp NUBS          &kp LS(NUBS)   &kp RPAR         &kp CARET   &kp BSPC
+&kp SINGLE_QUOTE  &kp RA(MINUS)  &kp AMPERSAND  &kp RA(NUMBER_7)       &kp RA(NUMBER_0)  &kp RIGHT_BRACE        &kp LS(MINUS)    &kp ASTRK  &kp LEFT_PARENTHESIS  &kp SLASH  &kp GREATER_THAN  &kp RA(Q)
+          &trans  &kp BACKSLASH     &kp DOLLAR      &kp RA(NUBS)  &kp RA(RIGHT_BRACKET)         &kp PLUS    &kp RIGHT_BRACKET  &kp PERCENT                &kp AT   &kp PIPE     &kp LESS_THAN     &trans
+                                                        &kp LGUI                 &trans        &kp SPACE              &kp RET        &mo 6          &kp LEFT_WIN
             >;
         };
 
         symbols_mac {
             bindings = <
-&trans             &kp MINUS      &kp QUESTION  &kp RA(NUMBER_5)  &kp RA(NUMBER_6)      &kp NUBS             &kp EXCL  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)   &kp RPAR         &kp CARET   &kp BSPC
-&trans  &kp LS(LA(NUMBER_7))  &kp RS(NUMBER_7)  &kp RA(NUMBER_8)        &kp RA(N8)  &kp LS(RBRC)        &kp LS(MINUS)             &kp ASTRK      &kp LEFT_PARENTHESIS  &kp SLASH  &kp GREATER_THAN  &kp RA(L)
-&trans         &kp BACKSLASH        &kp DOLLAR  &kp LA(NUMBER_7)         &kp RA(N)      &kp PLUS    &kp RIGHT_BRACKET           &kp PERCENT                    &kp AT   &kp PIPE     &kp LESS_THAN     &trans
-                                                           &none            &trans     &kp SPACE              &kp RET                 &mo 6              &kp LEFT_GUI
+&kp LEFT_BRACKET             &kp MINUS      &kp QUESTION  &kp RA(NUMBER_5)  &kp RA(NUMBER_6)      &kp NUBS             &kp EXCL  &kp BACKSLASH     &kp LS(BACKSLASH)   &kp RPAR         &kp CARET   &kp BSPC
+&kp SINGLE_QUOTE  &kp LS(LA(NUMBER_7))  &kp RS(NUMBER_7)  &kp RA(NUMBER_8)        &kp RA(N8)  &kp LS(RBRC)        &kp LS(MINUS)      &kp ASTRK  &kp LEFT_PARENTHESIS  &kp SLASH  &kp GREATER_THAN  &kp RA(L)
+          &trans         &kp BACKSLASH        &kp DOLLAR  &kp LA(NUMBER_7)         &kp RA(N)      &kp PLUS    &kp RIGHT_BRACKET    &kp PERCENT                &kp AT   &kp PIPE     &kp LESS_THAN     &trans
+                                                                     &none            &trans     &kp SPACE              &kp RET          &mo 6          &kp LEFT_GUI
             >;
         };
 
