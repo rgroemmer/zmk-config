@@ -16,9 +16,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&to 1>,
-                <&macro_press>,
-                <&bt BT_SEL 2>;
+                <&to 1 &bt BT_SEL 2>;
         };
         LINUX: LINUX {
             compatible = "zmk,behavior-macro";
