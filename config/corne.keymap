@@ -55,7 +55,7 @@
 
         symbols_linux {
             bindings = <
-&kp LEFT_BRACKET  &kp MINUS      &kp QUESTION   &kp RA(NUMBER_8)  &kp RA(NUMBER_9)       &kp GRAVE          &kp EXCL           &kp INTERNATIONAL_4  &kp NON_US_BACKSLASH  &kp RPAR   &kp CARET         &kp BSPC
+&kp LEFT_BRACKET  &kp MINUS      &kp QUESTION   &kp RA(NUMBER_8)  &kp RA(NUMBER_9)       &kp GRAVE          &kp EXCL           &kp INTERNATIONAL_1  &kp LS(INT1)          &kp RPAR   &kp CARET         &kp BSPC
 &kp SINGLE_QUOTE  &kp RA(MINUS)  &kp AMPERSAND  &kp RA(NUMBER_7)  &kp RA(NUMBER_0)       &kp RIGHT_BRACE    &kp LS(MINUS)      &kp ASTRK            &kp LEFT_PARENTHESIS  &kp SLASH  &kp GREATER_THAN  &kp RA(Q)
 &trans            &kp BACKSLASH  &kp DOLLAR     &kp RA(NUBS)      &kp RA(RIGHT_BRACKET)  &kp PLUS           &kp RIGHT_BRACKET  &kp PERCENT          &kp AT                &kp PIPE   &kp LESS_THAN     &trans
                                                 &kp LGUI          &trans                 &kp SPACE          &kp RET            &mo 6                &kp LEFT_WIN
